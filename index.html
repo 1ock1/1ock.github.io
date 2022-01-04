@@ -1,0 +1,1375 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Lock Zone</title>
+    <link rel="stylesheet" href="./assests/base.css" />
+    <link rel="stylesheet" href="./assests/main.css" />
+    <link
+      rel="stylesheet"
+      href="./assests/font/fontawesome-free-5.15.4-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--HEADER NAVBAR-->
+
+    <div class="wrap-all">
+      <div class="nav-header">
+        <header class="header">
+          <div class="grid flex-header">
+            <div class="nav_wrapper">
+              <div class="nav_logo">
+                <a href="">
+                  <i class="fas fa-video"></i>
+                </a>
+              </div>
+              <div class="nav_navbar">
+                <ul class="nav_navbar-list">
+                  <li class="nav_navbar-item-selection">
+                    <a class="nav_navbar-item-link" href="#">TRANG CHỦ</a>
+                  </li>
+                  <li class="nav_navbar-item-selection">
+                    <a class="nav_navbar-item-link" href="#on-watching">FILM</a>
+                  </li>
+
+                  <li class="nav_navbar-item-selection">
+                    <a class="nav_navbar-item-link" href="#top_film">
+                      TOP FILM</a
+                    >
+                  </li>
+                  <li class="nav_navbar-item-selection">
+                    <a class="nav_navbar-item-link" href="#new_year-film"
+                      >FILM 2022</a
+                    >
+                  </li>
+                  <li class="nav_navbar-item-selection">
+                    <a
+                      class="nav_navbar-item-link"
+                      href="#your-film-content-wrap"
+                      >FILM CỦA TÔI</a
+                    >
+                  </li>
+                  <li class="nav_navbar-item-selection">
+                    <a
+                      class="nav_navbar-item-link"
+                      href="#news"
+                      >TIN TỨC</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="nav_login">
+              <i class="new-year_film-bell-nav far fa-bell"></i>
+              <span class="nav_login-zone">
+                <div class="nav_log-zone-hover">
+                  <i class="nav_log-zone-hover-icon fas fa-globe-americas"></i>
+                  <i class="fas fa-angle-down"></i>
+                </div>
+                <div class="nav_login-zone-country">
+                  <span class="nav_login-zone-select">Choose your country</span>
+                  <ul class="nav_login-country-list">
+                    <li class="nav_login-country-item">
+                      <a class="nav_login-country-item-link" href="">
+                        <img
+                          src="./assests/icon/vn.jpg"
+                          alt=""
+                          class="flag-icon"
+                        />
+                        <span>Việt Nam</span>
+                      </a>
+                    </li>
+                    <li class="nav_login-country-item">
+                      <a class="nav_login-country-item-link" href="">
+                        <img
+                          src="./assests/icon/My.jpg"
+                          alt=""
+                          class="flag-icon"
+                        />
+                        <span>Mỹ</span>
+                      </a>
+                    </li>
+                    <li class="nav_login-country-item">
+                      <a class="nav_login-country-item-link" href="">
+                        <img
+                          src="./assests/icon/Malaysia.jpg"
+                          alt=""
+                          class="flag-icon"
+                        />
+                        <span>Malaysia</span>
+                      </a>
+                    </li>
+                    <li class="nav_login-country-item">
+                      <a class="nav_login-country-item-link" href="">
+                        <img
+                          src="./assests/icon/Singapore.png"
+                          alt=""
+                          class="flag-icon"
+                        />
+                        <span>Singapore</span>
+                      </a>
+                    </li>
+                    <li class="nav_login-country-item">
+                      <a class="nav_login-country-item-link" href="">
+                        <img
+                          src="./assests/icon/Japan.jpg"
+                          alt=""
+                          class="flag-icon"
+                        />
+                        <span>Nhật Bản</span>
+                      </a>
+                    </li>
+                    <li class="nav_login-country-item">
+                      <a class="nav_login-country-item-link" href="">
+                        <img
+                          src="./assests/icon/Canada.jpg"
+                          alt=""
+                          class="flag-icon"
+                        />
+                        <span>Canada</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </span>
+              <span class="nav_login-login">
+                <a class="nav_navbar-item-link-sign border-separate" href=""
+                  >Đăng nhập</a
+                >
+              </span>
+
+              <span class="nav_login-register">
+                <a class="nav_navbar-item-link-sign" href="">Đăng ký</a>
+              </span>
+            </div>
+          </div>
+        </header>
+      </div>
+      <div class="grid video-slider">
+        <div class="video-slider-content">
+          <video width="500" height="281" autoplay loop>
+            <source src="/assests/video/Video-slider.mp4" type="video/mp4" />
+            Your browser does not support the video tag. We suggest you upgrade
+            your browser.
+          </video>
+          <div class="video-content">
+            <h3 class="video-slider-heading">XEM NGAY</h3>
+            <input
+              type="text"
+              placeholder="Tìm kiếm phim"
+              class="video-find-film"
+            />
+            <i class="video-find-icon fas fa-search"></i>
+          </div>
+          <div class="video-slider-selection">
+            <a class="video-slider-watch-anime" href="#">
+              <h3>PHIM HOẠT HÌNH</h3>
+            </a>
+            <a class="video-slider-watch-real-film" href="#">
+              <h3>PHIM THƯỜNG</h3>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div id="top_film" class="top_film grid">
+          <div class="top_film-content">
+            <div class="top_film-desc-head">
+              <h4 class="top_film-heading">
+                <a href="#" class="top_film-heading-link heading-common"
+                  >PHIM HOT</a
+                >
+              </h4>
+              <div class="top_film-nav-wrap">
+                <div class="top_film-nav">
+                  <ul class="top_film-nav-list">
+                    <li class="top_film-nav-item">
+                      <a href="#tv" class="top_film-nav-item-link">TV Show</a>
+                    </li>
+                    <li class="top_film-nav-item">
+                      <a href="#movie" class="top_film-nav-item-link">Movie</a>
+                    </li>
+                    <li class="top_film-nav-item">
+                      <a href="#on-watching" class="top_film-nav-item-link">Đang chiéu</a>
+                    </li>
+                  </ul>
+                </div>
+                
+              </div>
+            </div>
+            <div class="top_film-series">
+              <a id="tv-series" href="" class="top_film-series-head">TV-Series
+                <i class="fas fa-tv"></i>
+              </a>
+              <div class="top_film-movie-search">
+                <input
+              type="text"
+              placeholder="Tìm kiếm phim"
+              class=" video-find-movie"
+            />
+            <i class="video-find-movie-icon fas fa-search"></i>
+              </div>
+            </div>
+            <div class="top_film-description grid_row">
+              <div class="top_film-description-wrap grid_row-4">
+                <div class="top_film-description-wrap-img">
+                  <a id="tv"
+                href="https://www.iq.com/play/thanh-guom-diet-quy-pho-den-do-ky-vien-tran-tap-11-115qxfkmpk8?lang=vi_vn"
+                class="top_film-item-film "
+              >
+                <div
+                  class="top_film-img"
+                  style="
+                    background-image: url(./assests/img/thanhguomdietquyss2.jpg);
+                  "
+                ></div>
+                <div class="top_film-play">
+                  <a href="https://www.iq.com/play/thanh-guom-diet-quy-pho-den-do-ky-vien-tran-tap-11-115qxfkmpk8?lang=vi_vn">
+
+                    <i class="top_film-play-icon fas fa-play-circle"></i>
+                  </a>
+                  
+                </div>
+              </a>
+                </div>
+                
+              <div class="top_film-item-content">
+                <div class="top_film-item-heading">
+                  Thanh gươm diệt quỷ ss2
+                </div>
+                <div class="top_film-specific">
+                  <div class="top_film-type-setting">720p - HD</div>
+                  <div class="top_film-type-numb">
+                    Tập: 5/12 - 24 phút / tập
+                  </div>
+                  <div class="top_film-love-icon">
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+                
+              </div>
+              </div>
+              <div class="top_film-description-wrap grid_row-4">
+                <div class="top_film-description-wrap-img">
+                  <a id="tv"
+                href="#"
+                class="top_film-item-film "
+              >
+                <div
+                  class="top_film-img"
+                  style="
+                    background-image: url(./assests/img/nisekoiss2.jpg);
+                  "
+                ></div>
+                <div class="top_film-play">
+                  <a href="#">
+
+                    <i class="top_film-play-icon fas fa-play-circle"></i>
+                  </a>
+                  
+                </div>
+              </a>
+                </div>
+              <div class="top_film-item-content">
+                <div class="top_film-item-heading">
+                  Tình yêu giả tạo
+                </div>
+                <div class="top_film-specific">
+                  <div class="top_film-type-setting">720p - HD</div>
+                  <div class="top_film-type-numb">
+                    Tập: 32/32 - 24 phút / tập
+                  </div>
+                  <div class="top_film-love-icon">
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+                
+              </div>
+              </div>
+              <div class="top_film-description-wrap grid_row-4">
+                <div class="top_film-description-wrap-img">
+                  <a id="tv"
+                href="#"
+                class="top_film-item-film "
+              >
+                <div
+                  class="top_film-img"
+                  style="
+                    background-image: url(./assests/img/AOTss4.2.jpg);
+                  "
+                ></div>
+                <div class="top_film-play">
+                  <a href="#">
+
+                    <i class="top_film-play-icon fas fa-play-circle"></i>
+                  </a>
+                  
+                </div>
+              </a>
+                </div>
+                
+              <div class="top_film-item-content">
+                <div class="top_film-item-heading">
+                  Đại chiến Titan (The Final SS Part 2)
+                </div>
+                <div class="top_film-specific">
+                  <div class="top_film-type-setting">720p - HD</div>
+                  <div class="top_film-type-numb">
+                    Tập: 16/30 - 24 phút / tập
+                  </div>
+                  <div class="top_film-love-icon">
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+                
+              </div>
+              </div>
+              <div class="top_film-description-wrap grid_row-4">
+                <div class="top_film-description-wrap-img">
+                  <a id="tv"
+                href="#"
+                class="top_film-item-film "
+              >
+                <div
+                  class="top_film-img"
+                  style="
+                    background-image: url(./assests/img/Komi-cant-commnunicate.jpg);
+                  "
+                ></div>
+                <div class="top_film-play">
+                  <a href="#">
+
+                    <i class="top_film-play-icon fas fa-play-circle"></i>
+                  </a>
+                  
+                </div>
+              </a>
+                </div>
+                
+              <div class="top_film-item-content">
+                <div class="top_film-item-heading">
+                  Komi không thể giao tiếp
+                </div>
+                <div class="top_film-specific">
+                  <div class="top_film-type-setting">720p - HD</div>
+                  <div class="top_film-type-numb">
+                    Tập: 12/12 - 24 phút / tập
+                  </div>
+                  <div class="top_film-love-icon">
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+                
+              </div>
+              </div>
+              <div class="top_film-description-wrap grid_row-4">
+                <div class="top_film-description-wrap-img">
+                  <a id="tv"
+                href="#"
+                class="top_film-item-film "
+              >
+                <div
+                  class="top_film-img"
+                  style="
+                    background-image: url(./assests/img/Boruto.jpg);
+                  "
+                ></div>
+                <div class="top_film-play">
+                  <a href="#">
+
+                    <i class="top_film-play-icon fas fa-play-circle"></i>
+                  </a>
+                  
+                </div>
+              </a>
+                </div>
+                
+              <div class="top_film-item-content">
+                <div class="top_film-item-heading">
+                  Borto: Next Generation
+                </div>
+                <div class="top_film-specific">
+                  <div class="top_film-type-setting">720p - HD</div>
+                  <div class="top_film-type-numb">
+                    Tập: 232/232 - 24 phút / tập
+                  </div>
+                  <div class="top_film-love-icon">
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+                
+              </div>
+              </div>
+              <div class="top_film-nav-angle specific-for-movie">
+                <a href="" class="top_film-nav-icon">
+                  <i class="fas fa-angle-left"></i>
+                </a>
+                <a href="" class="top_film-nav-icon">
+                  <i class="fas fa-angle-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="top_film-series">
+              <a id="movie" href="" class="top_film-series-head">Movie
+                <i class="fas fa-video"></i>
+                
+              </a>
+              <div class="top_film-movie-search">
+                <input
+              type="text"
+              placeholder="Tìm kiếm phim"
+              class=" video-find-movie"
+            />
+            <i class="video-find-movie-icon fas fa-search"></i>
+              </div>
+            </div>
+            <div class="top_film-description grid_row">
+              <div class="top_film-description-wrap grid_row-4">
+                <div class="top_film-description-wrap-img">
+                  <a id="tv"
+                href="#"
+                class="top_film-item-film "
+              >
+                <div
+                  class="top_film-img"
+                  style="
+                    background-image: url(./assests/img/Gintama.jfif);
+                  "
+                ></div>
+                <div class="top_film-play">
+                  <a href="#">
+
+                    <i class="top_film-play-icon fas fa-play-circle"></i>
+                  </a>
+                  
+                </div>
+              </a>
+                </div>
+                
+              <div class="top_film-item-content">
+                <div class="top_film-item-heading">
+                  Gintama: The Very Final 
+                </div>
+                <div class="top_film-specific">
+                  <div class="top_film-type-setting">720p - HD</div>
+                  <div class="top_film-type-numb">
+                    1h 44m
+                  </div>
+                  <div class="top_film-love-icon">
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+                
+              </div>
+              </div>
+              <div class="top_film-description-wrap grid_row-4">
+                <div class="top_film-description-wrap-img">
+                  <a id="tv"
+                href="#"
+                class="top_film-item-film "
+              >
+                <div
+                  class="top_film-img"
+                  style="
+                    background-image: url(./assests/img/Hero-Academi.jpg);
+                  "
+                ></div>
+                <div class="top_film-play">
+                  <a href="#">
+
+                    <i class="top_film-play-icon fas fa-play-circle"></i>
+                  </a>
+                  
+                </div>
+              </a>
+                </div>
+                
+              <div class="top_film-item-content">
+                <div class="top_film-item-heading">
+                  My Hero Academia: World Heroes' Mission
+                </div>
+                <div class="top_film-specific">
+                  <div class="top_film-type-setting">720p - HD</div>
+                  <div class="top_film-type-numb">
+                    1h 41m
+                  </div>
+                  <div class="top_film-love-icon">
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+                
+              </div>
+              </div>
+              <div class="top_film-description-wrap grid_row-4">
+                <div class="top_film-description-wrap-img">
+                  <a id="tv"
+                href="#"
+                class="top_film-item-film "
+              >
+                <div
+                  class="top_film-img"
+                  style="
+                    background-image: url(./assests/img/conan.jfif);
+                  "
+                ></div>
+                <div class="top_film-play">
+                  <a href="#">
+
+                    <i class="top_film-play-icon fas fa-play-circle"></i>
+                  </a>
+                  
+                </div>
+              </a>
+                </div>
+                
+              <div class="top_film-item-content">
+                <div class="top_film-item-heading">
+                  Conan 24: The Red Bullet
+                </div>
+                <div class="top_film-specific">
+                  <div class="top_film-type-setting">720p - HD</div>
+                  <div class="top_film-type-numb">
+                    1h 50m
+                  </div>
+                  <div class="top_film-love-icon">
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+                
+              </div>
+              </div>
+              <div class="top_film-description-wrap grid_row-4">
+                <div class="top_film-description-wrap-img">
+                  <a id="tv"
+                href="#"
+                class="top_film-item-film "
+              >
+                <div
+                  class="top_film-img"
+                  style="
+                    background-image: url(./assests/img/Sword\ Art\ Online.jfif);
+                  "
+                ></div>
+                <div class="top_film-play">
+                  <a href="#">
+
+                    <i class="top_film-play-icon fas fa-play-circle"></i>
+                  </a>
+                  
+                </div>
+              </a>
+                </div>
+                
+              <div class="top_film-item-content">
+                <div class="top_film-item-heading">
+                  Sword Art Online the Movie: Progressive – Aria of a Starless Night
+                </div>
+                <div class="top_film-specific">
+                  <div class="top_film-type-setting">720p - HD</div>
+                  <div class="top_film-type-numb">
+                    1h 40m
+                  </div>
+                  <div class="top_film-love-icon">
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+                
+              </div>
+              </div>
+              <div class="top_film-description-wrap grid_row-4">
+                <div class="top_film-description-wrap-img">
+                  <a id="tv"
+                href="#"
+                class="top_film-item-film "
+              >
+                <div
+                  class="top_film-img"
+                  style="
+                    background-image: url(./assests/img/Trùm.jfif);
+                  "
+                ></div>
+                <div class="top_film-play">
+                  <a href="#">
+
+                    <i class="top_film-play-icon fas fa-play-circle"></i>
+                  </a>
+                  
+                </div>
+              </a>
+                </div>
+                
+              <div class="top_film-item-content">
+                <div class="top_film-item-heading">
+                  The Boss Baby: Family Business (Nhóc Trùm: Nối Nghiệp Gia Đình)
+                </div>
+                <div class="top_film-specific">
+                  <div class="top_film-type-setting">720p - HD</div>
+                  <div class="top_film-type-numb">
+                    1h 45m
+                  </div>
+                  <div class="top_film-love-icon">
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+                
+              </div>
+              </div>
+              <div class="top_film-nav-angle specific-for-movie">
+                <a href="" class="top_film-nav-icon">
+                  <i class="fas fa-angle-left"></i>
+                </a>
+                <a href="" class="top_film-nav-icon">
+                  <i class="fas fa-angle-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="top_film-series">
+              <a id="on-watching" href="" class="top_film-series-head">Phim đang chiếu
+                <i class="fas fa-film"></i>
+              </a>
+              <div class="top_film-movie-search">
+                <input
+              type="text"
+              placeholder="Tìm kiếm phim"
+              class=" video-find-movie"
+            />
+            <i class="video-find-movie-icon fas fa-search"></i>
+              </div>
+            </div>
+            <div class="top_film-description grid_row">
+              <div class="top_film-description-wrap grid_row-4">
+                <div class="top_film-description-wrap-img">
+                  <a id="tv"
+                href="#"
+                class="top_film-item-film "
+              >
+                <div
+                  class="top_film-img"
+                  style="
+                    background-image: url(./assests/img/minion.jpg);
+                  "
+                ></div>
+                <div class="top_film-play">
+                  <a href="#">
+
+                    <i class="top_film-play-icon fas fa-play-circle"></i>
+                  </a>
+                  
+                </div>
+              </a>
+                </div>
+                
+              <div class="top_film-item-content">
+                <div class="top_film-item-heading">
+                  Minions: The Rise of Gru (Minions: Sự Trỗi Dậy Của Gru)
+                </div>
+                <div class="top_film-specific">
+                  <div class="top_film-type-setting">720p - HD</div>
+                  <div class="top_film-type-numb">
+                   1h 30m
+                  </div>
+                  <div class="top_film-love-icon">
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+                
+              </div>
+              </div>
+              <div class="top_film-description-wrap grid_row-4">
+                <div class="top_film-description-wrap-img">
+                  <a id="tv"
+                href="#"
+                class="top_film-item-film "
+              >
+                <div
+                  class="top_film-img"
+                  style="
+                    background-image: url(./assests/img/Encanto.jpg);
+                  "
+                ></div>
+                <div class="top_film-play">
+                  <a href="#">
+
+                    <i class="top_film-play-icon fas fa-play-circle"></i>
+                  </a>
+                  
+                </div>
+              </a>
+                </div>
+                
+              <div class="top_film-item-content">
+                <div class="top_film-item-heading">
+                  Encanto
+                </div>
+                <div class="top_film-specific">
+                  <div class="top_film-type-setting">720p - HD</div>
+                  <div class="top_film-type-numb">
+                    1h 39m
+                  </div>
+                  <div class="top_film-love-icon">
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+                
+              </div>
+              </div>
+              <div class="top_film-description-wrap grid_row-4">
+                <div class="top_film-description-wrap-img">
+                  <a id="tv"
+                href="#"
+                class="top_film-item-film "
+              >
+                <div
+                  class="top_film-img"
+                  style="
+                    background-image: url(./assests/img/rây.jpg);
+                  "
+                ></div>
+                <div class="top_film-play">
+                  <a href="#">
+
+                    <i class="top_film-play-icon fas fa-play-circle"></i>
+                  </a>
+                  
+                </div>
+              </a>
+                </div>
+                
+              <div class="top_film-item-content">
+                <div class="top_film-item-heading">
+                  Raya and the Last Dragon (Raya và Rồng Thần Cuối Cùng)
+                </div>
+                <div class="top_film-specific">
+                  <div class="top_film-type-setting">720p - HD</div>
+                  <div class="top_film-type-numb">
+                    1h 41m
+                  </div>
+                  <div class="top_film-love-icon">
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+                
+              </div>
+              </div>
+              <div class="top_film-description-wrap grid_row-4">
+                <div class="top_film-description-wrap-img">
+                  <a id="tv"
+                href="#"
+                class="top_film-item-film "
+              >
+                <div
+                  class="top_film-img"
+                  style="
+                    background-image: url(./assests/img/conan-chứng-cứ-đỏ.jpg);
+                  "
+                ></div>
+                <div class="top_film-play">
+                  <a href="#">
+
+                    <i class="top_film-play-icon fas fa-play-circle"></i>
+                  </a>
+                  
+                </div>
+              </a>
+                </div>
+                
+              <div class="top_film-item-content">
+                <div class="top_film-item-heading">
+                  Thám tử lừng danh Conan: Chứng cứ đỏ
+                </div>
+                <div class="top_film-specific">
+                  <div class="top_film-type-setting">720p - HD</div>
+                  <div class="top_film-type-numb">
+                    1h 33m
+                  </div>
+                  <div class="top_film-love-icon">
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+                
+              </div>
+              </div>
+              <div class="top_film-description-wrap grid_row-4">
+                <div class="top_film-description-wrap-img">
+                  <a id="tv"
+                href="#"
+                class="top_film-item-film "
+              >
+                <div
+                  class="top_film-img"
+                  style="
+                    background-image: url(./assests/img/thanhguomdietquyss2.jpg);
+                  "
+                ></div>
+                <div class="top_film-play">
+                  <a href="#">
+
+                    <i class="top_film-play-icon fas fa-play-circle"></i>
+                  </a>
+                  
+                </div>
+              </a>
+                </div>
+                
+              <div class="top_film-item-content">
+                <div class="top_film-item-heading">
+                  Thanh gươm diệt quỷ ss2
+                </div>
+                <div class="top_film-specific">
+                  <div class="top_film-type-setting">720p - HD</div>
+                  <div class="top_film-type-numb">
+                    Tập: 5/12 - 24 phút / tập
+                  </div>
+                  <div class="top_film-love-icon">
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+                
+              </div>
+              </div>
+              <div class="top_film-nav-angle specific-for-movie">
+                <a href="" class="top_film-nav-icon">
+                  <i class="fas fa-angle-left"></i>
+                </a>
+                <a href="" class="top_film-nav-icon">
+                  <i class="fas fa-angle-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="new_year-film" class="new-year_film grid">
+          <div class="new-year_film-wrap-nav">
+            <h4 class="top_film-heading">
+              <a href="#" class="top_film-heading-link heading-common"
+                >PHIM 2022</a
+              >
+            </h4>
+            <div class="top_film-nav">
+              <ul class="top_film-nav-list">
+                <li class="top_film-nav-item">
+                  <a href="#tv-new-year" class="top_film-nav-item-link">TV Show</a>
+                </li>
+                <li class="top_film-nav-item">
+                  <a href="#movie-new-year" class="top_film-nav-item-link">Movie</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="top_film-series">
+            <a id="movie-new-year" href="" class="top_film-series-head">Movie
+              <i class="fas fa-video"></i>
+            </a>
+            <div class="top_film-movie-search">
+              <input
+            type="text"
+            placeholder="Tìm kiếm phim"
+            class=" video-find-movie"
+          />
+          <i class="video-find-movie-icon fas fa-search"></i>
+            </div>
+          </div>
+          <div class="new-year_film-content grid_row">
+            <a href="https://www.youtube.com/watch?v=G5kzUpWAusI" class="new-year_film-item grid_row-2">
+              <div
+                class="new-year_film-img"
+                style="background-image: url(./assests/img/The-Sonic2.jpg)"
+              ></div>
+              <div class="new-year_film-description">
+                <div class="new-year_film-heading-name">
+                  Sonic the Hedgehog 2
+                </div>
+                <div class="new-year_film-trailer">
+                  <span  class="new-year_film-watch-trailer">Watch Trailer</span>
+                </div>
+              </div>
+              <div class="new-year_film-bell">
+                <p>Thông báo cho tôi ngay khi có phim</p>
+
+                <i class="new-year_film-bell-icon far fa-bell"></i>
+              </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=bFLt45xK3kU" class="new-year_film-item grid_row-2">
+              <div
+                class="new-year_film-img"
+                style="background-image: url(./assests/img/DBS2022.jpg)"
+              ></div>
+              <div class="new-year_film-description">
+                <div class="new-year_film-heading-name">
+                  Dragonball Super 2022
+                </div>
+                <div class="new-year_film-trailer">
+                  <span class="new-year_film-watch-trailer">Watch Trailer</span>
+                </div>
+              </div>
+              <div class="new-year_film-bell">
+                <p>Thông báo cho tôi ngay khi có phim</p>
+
+                <i class="new-year_film-bell-icon far fa-bell"></i>
+              </div>
+            </a>
+            <a href="#" class="new-year_film-item grid_row-2">
+              <div
+                class="new-year_film-img"
+                style="
+                  background-image: url(./assests/img/SuzumenoTojimari.jpg);
+                "
+              ></div>
+              <div class="new-year_film-description">
+                <div class="new-year_film-heading-name">Suzume no Tojimari</div>
+                <div class="new-year_film-trailer">
+                  <span class="new-year_film-watch-trailer">Watch Trailer</span>
+                </div>
+              </div>
+              <div class="new-year_film-bell">
+                <p>Thông báo cho tôi ngay khi có phim</p>
+
+                <i class="new-year_film-bell-icon far fa-bell"></i>
+              </div>
+            </a>
+            <a href="#" class="new-year_film-item grid_row-2">
+              <div
+                class="new-year_film-img"
+                style="background-image: url(./assests/img/spidermanhh2.jpg)"
+              ></div>
+              <div class="new-year_film-description">
+                <div class="new-year_film-heading-name">
+                  Spider Man: Into Spider Verse 2
+                </div>
+                <div class="new-year_film-trailer">
+                  <span class="new-year_film-watch-trailer">Watch Trailer</span>
+                </div>
+              </div>
+              <div class="new-year_film-bell">
+                <p>Thông báo cho tôi ngay khi có phim</p>
+
+                <i class="new-year_film-bell-icon far fa-bell"></i>
+              </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=BwPL0Md_QFQ" class="new-year_film-item grid_row-2">
+              <div
+                class="new-year_film-img"
+                style="background-image: url(./assests/img/Lightyear.png)"
+              ></div>
+              <div class="new-year_film-description">
+                <div class="new-year_film-heading-name">Lightyear</div>
+                <div class="new-year_film-trailer">
+                  <span class="new-year_film-watch-trailer">Watch Trailer</span>
+                </div>
+              </div>
+              <div class="new-year_film-bell">
+                <p>Thông báo cho tôi ngay khi có phim</p>
+
+                <i class="new-year_film-bell-icon far fa-bell"></i>
+              </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=XDll2-KHieA" class="new-year_film-item grid_row-2">
+              <div
+                class="new-year_film-img"
+                style="
+                  background-image: url(./assests/img/Doraemon-no-little-star-war.jpg);
+                "
+              ></div>
+              <div class="new-year_film-description">
+                <div class="new-year_film-heading-name">Doraemon 2022</div>
+                <div class="new-year_film-trailer">
+                  <span class="new-year_film-watch-trailer">Watch Trailer</span>
+                </div>
+              </div>
+              <div class="new-year_film-bell">
+                <p>Thông báo cho tôi ngay khi có phim</p>
+
+                <i class="new-year_film-bell-icon far fa-bell"></i>
+              </div>
+            </a>
+            <button class="new-year_film-more">More</button>
+          </div>
+          <div class="top_film-series">
+            <a id="tv-new-year" href="" class="top_film-series-head">TV Series
+              <i class="fas fa-tv"></i>
+            </a>
+            <div class="top_film-movie-search">
+              <input
+            type="text"
+            placeholder="Tìm kiếm phim"
+            class=" video-find-movie"
+          />
+          <i class="video-find-movie-icon fas fa-search"></i>
+            </div>
+          </div>
+          <div class="new-year_film-content grid_row">
+            <a href="https://www.youtube.com/watch?v=Oqd2C3oZkBU" class="new-year_film-item grid_row-2">
+              <div
+                class="new-year_film-img"
+                style="background-image: url(./assests/img/SpyxFamily.jpg)"
+              ></div>
+              <div class="new-year_film-description">
+                <div class="new-year_film-heading-name">
+                 Spy x Family 
+                </div>
+                <div class="new-year_film-trailer">
+                  <span  class="new-year_film-watch-trailer">Watch Trailer</span>
+                </div>
+              </div>
+              <div class="new-year_film-bell">
+                <p>Thông báo cho tôi ngay khi có phim</p>
+
+                <i class="new-year_film-bell-icon far fa-bell"></i>
+              </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=FYVlsAoDJME" class="new-year_film-item grid_row-2">
+              <div
+                class="new-year_film-img"
+                style="background-image: url(./assests/img/takagisan.png)"
+              ></div>
+              <div class="new-year_film-description">
+                <div class="new-year_film-heading-name">
+                  Karakai Jouzu no Takagi-san 3
+                </div>
+                <div class="new-year_film-trailer">
+                  <span class="new-year_film-watch-trailer">Watch Trailer</span>
+                </div>
+              </div>
+              <div class="new-year_film-bell">
+                <p>Thông báo cho tôi ngay khi có phim</p>
+
+                <i class="new-year_film-bell-icon far fa-bell"></i>
+              </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=ITtWEFyvs_8" class="new-year_film-item grid_row-2">
+              <div
+                class="new-year_film-img"
+                style="
+                  background-image: url(./assests/img/komi-khong-the-giao-tiep-poster-ss2.png);
+                "
+              ></div>
+              <div class="new-year_film-description">
+                <div class="new-year_film-heading-name">Komi không thể giao tiếp ss2</div>
+                <div class="new-year_film-trailer">
+                  <span class="new-year_film-watch-trailer">Watch Trailer</span>
+                </div>
+              </div>
+              <div class="new-year_film-bell">
+                <p>Thông báo cho tôi ngay khi có phim</p>
+
+                <i class="new-year_film-bell-icon far fa-bell"></i>
+              </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=t_QIXI-t9rw" class="new-year_film-item grid_row-2">
+              <div
+                class="new-year_film-img"
+                style="background-image: url(./assests/img/AoAshi1.jpg)"
+              ></div>
+              <div class="new-year_film-description">
+                <div class="new-year_film-heading-name">
+                  Ao Ashi
+                </div>
+                <div class="new-year_film-trailer">
+                  <span class="new-year_film-watch-trailer">Watch Trailer</span>
+                </div>
+              </div>
+              <div class="new-year_film-bell">
+                <p>Thông báo cho tôi ngay khi có phim</p>
+
+                <i class="new-year_film-bell-icon far fa-bell"></i>
+              </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=dy0xZxDumhA" class="new-year_film-item grid_row-2">
+              <div
+                class="new-year_film-img"
+                style="background-image: url(./assests/img/Heroine\ Tarumono.jpg)"
+              ></div>
+              <div class="new-year_film-description">
+                <div class="new-year_film-heading-name">Heroine Tarumono</div>
+                <div class="new-year_film-trailer">
+                  <span class="new-year_film-watch-trailer">Watch Trailer</span>
+                </div>
+              </div>
+              <div class="new-year_film-bell">
+                <p>Thông báo cho tôi ngay khi có phim</p>
+
+                <i class="new-year_film-bell-icon far fa-bell"></i>
+              </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=Qyonn5Vbg7s" class="new-year_film-item grid_row-2">
+              <div
+                class="new-year_film-img"
+                style="
+                  background-image: url(./assests/img/boruto-2022.jpg.jpeg);
+                "
+              ></div>
+              <div class="new-year_film-description">
+                <div class="new-year_film-heading-name">Boruto 2022</div>
+                <div class="new-year_film-trailer">
+                  <span class="new-year_film-watch-trailer">Watch Trailer</span>
+                </div>
+              </div>
+              <div class="new-year_film-bell">
+                <p>Thông báo cho tôi ngay khi có phim</p>
+
+                <i class="new-year_film-bell-icon far fa-bell"></i>
+              </div>
+            </a>
+            <button class="new-year_film-more">More</button>
+          </div>
+        </div>
+        <div id="your-film-content-wrap" class="your-film-content-wrap">
+          <div class="your-film grid">
+            <div class="your-film_nav">
+              <h4 class="top_film-heading">
+                <a href="#" class="top_film-heading-link heading-common"
+                  >PHIM BẠN THÍCH (10 phim)</a
+                >
+              </h4>
+              <div class="your-film_find">
+                <input
+                  type="text"
+                  placeholder="Search your film"
+                  class="your-film-find-bar"
+                />
+                <i class="your-film-find-icon fas fa-search"></i>
+              </div>
+            </div>
+
+            <div class="your-film-content grid_row grid-your-film">
+              <div class="your-film-description grid_row-1-1">
+                <div class="your-film-header">
+                  <h3 class="your-film-header-name">Thanh gươm diệt quỷ SS1</h3>
+                  <div class="your-film-notification">
+                    Bạn đang xem tới tập 19
+                  </div>
+                  <a href="https://www.iq.com/play/thanh-guom-diet-quy-tap-20-gjfsxkjevc?lang=vi_vn" class="your-film-btn-continue">Xem tiếp</a>
+                  <a href="https://www.iq.com/play/thanh-guom-diet-quy-tap-19-j6ns3yef50?lang=vi_vn" class="your-film-btn-replay">Xem lại</a>
+                </div>
+              </div>
+              <div class="your-film-img-description grid_row-1-2">
+                <video width="650" height="400" controls loop>
+                  <source
+                    src="./assests/video/y2mate.com - Tanjiro And Nezuko VS Rui 1080p 60 FPS_1080pFHR.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+            </div>
+            <div class="your-film-number-film">
+              <ul class="your-film-number-list grid_row">
+                <div class="your-film-angle-left">
+                  <a class="your-film-number-item-link" href="">
+                    <i class="your-film-angle-icon-left fas fa-angle-left"></i>
+                  </a>
+                </div>
+                <li class="your-film-number-item">
+                  <a class="your-film-number-item-link" href="">1</a>
+                </li>
+                <li class="your-film-number-item">
+                  <a class="your-film-number-item-link" href="">2</a>
+                </li>
+                <li class="your-film-number-item">
+                  <a class="your-film-number-item-link" href="">3</a>
+                </li>
+                <li class="your-film-number-item">
+                  <a class="your-film-number-item-link" href="">4</a>
+                </li>
+                <li class="your-film-number-item">
+                  <a class="your-film-number-item-link" href="">5</a>
+                </li>
+                <li class="your-film-number-item">
+                  <a class="your-film-number-item-link" href="">...</a>
+                </li>
+                <li class="your-film-number-item">
+                  <a class="your-film-number-item-link" href="">10</a>
+                </li>
+                <div class="your-film-angle-right">
+                  <a class="your-film-number-item-link" href="">
+                    <i
+                      class="your-film-angle-icon-right fas fa-angle-right"
+                    ></i>
+                  </a>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="news-content-wrap">
+          <div class="news-content grid">
+            <div class="news-content-nav grid_row ">
+              <h4 class="top_film-heading">
+                <a id="news" href="#" class="top_film-heading-link heading-common"
+                  >TIN TỨC</a
+                >
+              </h4>
+              <div class="your-film_find">
+                <input
+                  type="text"
+                  placeholder="Search news"
+                  class="your-film-find-bar"
+                />
+                <i class="your-film-find-icon fas fa-search"></i>
+              </div>
+            </div>
+            <div class="news-content-description-wrap grid_row">
+              <div class="news-content-description grid_row-7">
+                <div class="news-content-img" style="background-image: url(./assests/img/Boruto2022.jpg);"></div>
+                <div class="news-content-specific">
+                  <div class="news-content-name">
+                    <a class="news-content-name-heading"" href="#">
+                      Boruto: Hành trình đánh mất đi tất cả của con trai Đệ Thất
+                    </a>
+                    <div class="news-content-name-author">Tác giả: Lockiu</div>
+                    <div class="news-content-name-date">6 hours ago</div>
+                    <div class="new-content-name-react">
+                      <ul class="new-content-name-react-list">
+                        <li class="new-content-name-react-item">
+                          <i class="new-content-name-react-item-icon fas fa-eye"></i>10000
+                        </li>
+                        <li class="new-content-name-react-item">
+                          <i class="new-content-name-react-item-icon  fas fa-thumbs-up"></i>15000
+                        </li>
+                        <li class="new-content-name-react-item">
+                          <i class="new-content-name-react-item-icon  fas fa-comment"></i>1000
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="news-content-description-menu grid_row-3">
+                <div class="news-content-description-menu-head grid_row">
+                  <a href="#" class="news-content-description-menu-new">Tin mới</a>
+                  <a href="#" class="news-content-description-menu-new">Đọc nhiều</a>
+                </div>
+                <div class="news-content-description-menu-item">
+                  <ul class="news-content-description-menu-list">
+                    <li class="news-content-descrption-menu-item">
+                      <p class="news-content-description-menu-item-time">17.00</p>
+                      <a href="#" class="news-content-description-menu-item-link">Boruto: Hành trình đánh mất đi tất cả của con trai Đệ Thất</a>
+                    </li>
+                    <li class="news-content-descrption-menu-item">
+                      <p class="news-content-description-menu-item-time">17.00</p>
+                      <a href="#" class="news-content-description-menu-item-link">Boruto: Hành trình đánh mất đi tất cả của con trai Đệ Thất</a>
+                    </li>
+                    <li class="news-content-descrption-menu-item">
+                      <p class="news-content-description-menu-item-time">17.00</p>
+                      <a href="#" class="news-content-description-menu-item-link">Boruto: Hành trình đánh mất đi tất cả của con trai Đệ Thất</a>
+                    </li>
+                    <li class="news-content-descrption-menu-item">
+                      <p class="news-content-description-menu-item-time">17.00</p>
+                      <a href="#" class="news-content-description-menu-item-link">Boruto: Hành trình đánh mất đi tất cả của con trai Đệ Thất</a>
+                    </li>
+                    <li class="news-content-descrption-menu-item">
+                      <p class="news-content-description-menu-item-time">17.00</p>
+                      <a href="#" class="news-content-description-menu-item-link">Boruto: Hành trình đánh mất đi tất cả của con trai Đệ Thất</a>
+                    </li>
+                    <li class="news-content-descrption-menu-item">
+                      <p class="news-content-description-menu-item-time">17.00</p>
+                      <a href="#" class="news-content-description-menu-item-link">Boruto: Hành trình đánh mất đi tất cả của con trai Đệ Thất</a>
+                    </li>
+                    <li class="news-content-descrption-menu-item">
+                      <p class="news-content-description-menu-item-time">17.00</p>
+                      <a href="#" class="news-content-description-menu-item-link">Boruto: Hành trình đánh mất đi tất cả của con trai Đệ Thất</a>
+                    </li>
+                    
+                    
+                  </ul>
+                  <a href="#" class="see-more">Xem thêm</a>
+                </div>
+              </div>
+              
+              
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer-container grid-footer">
+          <div class="footer-heading">
+            <h3 class="footer-heading-header">
+              Trải nghiệm tốt nhất chỉ có trên 1ock APP
+            </h3>
+          </div>
+          <div class="footer-download">
+            <p class="footer-download-now">Tải ngay app trên</p>
+            <div class="footer-download-site">
+              <a href="" class="footer-download-site-icon"><img
+                style="width: 150px"
+                src="./assests/img/gg-play.jpg"
+                alt=""
+              /></a>
+              <a href="" class="footer-download-site-icon"><img
+                style="width: 150px"
+                src="./assests/img/applestore.png"
+                alt=""
+              /></a>
+              
+            </div>
+          </div>
+          
+          </div>
+          <div class="footer-contact grid-footer">
+            <ul class="footer-contact-list grid_row">
+              <a href="" class="footer-contact-item-link grid_row-4">
+                <li class="footer-contact-item">Về chúng tôi</li>
+              </a>
+              <a href="" class="footer-contact-item-link grid_row-4">
+                <li class="footer-contact-item">Hợp tác</li>
+              </a>
+              <a href="" class="footer-contact-item-link grid_row-4">
+                <li class="footer-contact-item">Hỗ trợ và giúp đỡ</li>
+              </a>
+              <a href="" class="footer-contact-item-link grid_row-4">
+                <li class="footer-contact-item">Điều khoản dịch vụ</li>
+              </a>
+              <a href="" class="footer-contact-item-link grid_row-4">
+                <li class="footer-contact-item">Tiếng Việt</li>
+              </a>
+            </ul>
+          </div>
+          <div class="powered-link">
+            <div class="powered grid-footer">
+              <span class="powered-by">Powered by 1ock-NQT</span>
+            </div>
+            <div class="contanct-with-me grid-footer">
+              <span class="contact-with-me-link">Contact with me</span>
+              <ul class="contact-with-me-link-list">
+                <a href="" class="contact-with-me-link">
+                  <li class="contact-with-me-item">
+                    <i class="fab fa-facebook"></i>
+                  </li>
+                </a><a href="" class="contact-with-me-link">
+                  <li class="contact-with-me-item">
+                    <i class="fab fa-instagram-square"></i>
+                  </li>
+                </a><a href="" class="contact-with-me-link">
+                  <li class="contact-with-me-item">
+                    <i class="fab fa-linkedin"></i>
+                  </li>
+                </a><a href="" class="contact-with-me-link">
+                  <li class="contact-with-me-item">
+                    <i class="fab fa-youtube"></i>
+                  </li>
+                </a><a href="" class="contact-with-me-link">
+                  <li class="contact-with-me-item">
+                    <i class="fab fa-twitter-square"></i>
+                  </li>
+                </a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
